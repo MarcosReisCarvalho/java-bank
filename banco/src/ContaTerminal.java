@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ContaTerminal {
-
+    // variáveis
     static int numeroAgencia;
     static String agencia;
     static String nomeCliente;
@@ -31,8 +31,9 @@ public class ContaTerminal {
         }
     }
 
+    // método que realiza o output de texto esperado
     public static String concatenacaoInformacoes() {
-        return numeroAgencia + " " + agencia + " " + nomeCliente + " " + saldo;
+        return "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numeroAgencia + " e seu saldo " + saldo + " já está disponível para saque.";
     }
 
 }
